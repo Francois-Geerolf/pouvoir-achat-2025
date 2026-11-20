@@ -1,6 +1,6 @@
 # Figure 1 : pouvoir d'achat par unité de consommation, avec et sans les revenus de la propriété,
 # base 100 en 2019 ; 2026 : prévision de l'Insee (septembre 2026).
-# Zone grise : période inflationniste (2021-2023) ; zone bleue : reflux des dividendes (2024-2025).
+# Zone grise : crise inflationniste (2021-2023) ; zone bleue : reflux des dividendes (2024-2025).
 
 library(ggplot2)
 library(scales)
@@ -31,7 +31,7 @@ etiquettes <- data.frame(
 
 p <- ggplot(long) + theme_minimal() + xlab("") + ylab("") +
   annotate("rect", xmin = 2021, xmax = 2023, ymin = bas, ymax = haut, fill = "grey90") +
-  annotate("text", x = 2022, y = bas * 1.002, label = "période inflationniste", size = 3, colour = "grey40", vjust = 0) +
+  annotate("text", x = 2022, y = bas * 1.002, label = "crise inflationniste", size = 3, colour = "grey40", vjust = 0) +
   annotate("rect", xmin = 2024, xmax = 2025, ymin = bas, ymax = haut, fill = "#dbe7f5") +
   annotate("text", x = 2024.5, y = bas * 1.002, label = "reflux des\ndividendes", size = 3, colour = "grey40", vjust = 0) +
   geom_line(data = long[long$annee <= 2025, ], aes(x = annee, y = indice, colour = Mesure), linewidth = 1) +
