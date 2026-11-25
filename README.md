@@ -2,12 +2,13 @@
 
 Date de publication : novembre 2026.
 
-Ce dépôt met à disposition des codes de réplication pour l'[article en lien](https://fgeerolf.com/pouvoir-achat-2025.html).
+Ce dépôt met à disposition les codes de réplication du billet « [Pouvoir d'achat : ce que masquent les revenus du patrimoine](https://www.ofce.fr/blog2024/fr/2026/20261125_FG/) » (Blog de l'IFE, 25 novembre 2026) et de sa [version longue](https://fgeerolf.com/pouvoir-achat-2025.html).
 
 <p align="center">
 
   <!-- Reader Navigation -->
-  **[📖 Lire en ligne](https://fgeerolf.com/pouvoir-achat-2025.html)** •
+  **[📝 Billet (Blog de l'IFE)](https://www.ofce.fr/blog2024/fr/2026/20261125_FG/)** •
+  **[📖 Version longue](https://fgeerolf.com/pouvoir-achat-2025.html)** •
   **[📄 Version PDF](https://fgeerolf.com/pouvoir-achat-2025.pdf)** •
   **[🌐 Présentation HTML](https://fgeerolf.com/pouvoir-achat-2025-handouts.html)** •
   **[📓 Présentation PDF](https://fgeerolf.com/pouvoir-achat-2025-slides.pdf)**
@@ -24,19 +25,19 @@ Les scripts s'exécutent depuis la racine du dépôt (ouvrir `pouvoir-achat-2025
 - Insee, comptes nationaux annuels, base 2020 (mai 2026), dépense de consommation des ménages par produit aux niveaux les plus fins : consommation de SIFIM (« services financiers de prêts et dépôts implicitement mesurés ») en valeur et en volume, qui donne le prix de la consommation hors SIFIM ;
 - Insee, pouvoir d'achat du revenu disponible brut et nombre d'unités de consommation.
 
-Le pouvoir d'achat hors revenus de la propriété est le revenu disponible hors SIFIM, diminué des revenus nets de la propriété effectivement reçus (intérêts hors SIFIM, dividendes, revenus de l'assurance-vie, loyers des terrains), déflaté par le prix de la consommation hors SIFIM et rapporté au nombre d'unités de consommation. La prévision pour 2026 reprend celle de la note de conjoncture de l'Insee de septembre 2026 ([`R/prevision2026.R`](R/prevision2026.R)).
+La mesure « tous revenus » est celle que publie l'Insee, sur l'ensemble du revenu disponible. Le pouvoir d'achat hors revenus de la propriété est le revenu disponible hors SIFIM, diminué des revenus nets de la propriété effectivement reçus (intérêts hors SIFIM, dividendes, revenus de l'assurance-vie, loyers des terrains), déflaté par le prix de la consommation hors SIFIM et rapporté au nombre d'unités de consommation. La prévision pour 2026 reprend celle de la note de conjoncture de l'Insee de septembre 2026 ([`R/prevision2026.R`](R/prevision2026.R)).
 
-### Tableau 1 : Pouvoir d'achat par unité de consommation, avec et sans les revenus de la propriété
+### Tableau 1 : Évolution annuelle du pouvoir d'achat par unité de consommation, avec et sans les revenus de la propriété
 
 [Code R](R/table1.R)
 
 ![Tableau 1](png/table1.png)
 
-### Figure 1 : Pouvoir d'achat par unité de consommation, avec et sans les revenus de la propriété, base 100 en 2019
+### Graphique 1 : Évolution du pouvoir d'achat par unité de consommation, avec et sans les revenus de la propriété, base 100 en 2019
 
 [Code R](R/figure1.R)
 
-![Figure 1](png/figure1.png)
+![Graphique 1](png/figure1.png)
 
 ### Chiffres cités dans le texte
 
