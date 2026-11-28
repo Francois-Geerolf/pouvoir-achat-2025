@@ -1,4 +1,4 @@
-# Téléchargement des données utilisées dans « Le pouvoir d'achat en 2025, et ce qu'il révèle de l'indicateur »
+# Téléchargement des données utilisées dans « Pouvoir d'achat : ce que masquent les revenus du patrimoine »
 # Usage : source("R/donnees.R") depuis la racine du dépôt (les autres scripts le font).
 # Crée le data.frame `donnees` (une ligne par année, 1999-2025, montants en milliards d'euros)
 # et l'écrit dans data.csv.

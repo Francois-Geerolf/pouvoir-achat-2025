@@ -1,14 +1,14 @@
-# Le pouvoir d'achat en 2025, et ce qu'il révèle de l'indicateur
+# Pouvoir d'achat : ce que masquent les revenus du patrimoine
 
-Date de publication : novembre 2026.
+Date de publication : 25 novembre 2026.
 
-Ce dépôt met à disposition les codes de réplication du billet « [Pouvoir d'achat : ce que masquent les revenus du patrimoine](https://www.ofce.fr/blog2024/fr/2026/20261125_FG/) » (Blog de l'IFE, 25 novembre 2026) et de sa [version longue](https://fgeerolf.com/pouvoir-achat-2025.html).
+Ce dépôt met à disposition les codes de réplication du billet « [Pouvoir d'achat : ce que masquent les revenus du patrimoine](https://www.ofce.fr/blog2024/fr/2026/20261125_FG/) » (Blog de l'IFE-OFCE, 25 novembre 2026), repris avec sa présentation sur [fgeerolf.com](https://fgeerolf.com/pouvoir-achat-2025.html).
 
 <p align="center">
 
   <!-- Reader Navigation -->
-  **[📝 Billet (Blog de l'IFE)](https://www.ofce.fr/blog2024/fr/2026/20261125_FG/)** •
-  **[📖 Version longue](https://fgeerolf.com/pouvoir-achat-2025.html)** •
+  **[📝 Billet (Blog de l'IFE-OFCE)](https://www.ofce.fr/blog2024/fr/2026/20261125_FG/)** •
+  **[📖 Version en ligne](https://fgeerolf.com/pouvoir-achat-2025.html)** •
   **[📄 Version PDF](https://fgeerolf.com/pouvoir-achat-2025.pdf)** •
   **[🌐 Présentation HTML](https://fgeerolf.com/pouvoir-achat-2025-handouts.html)** •
   **[📓 Présentation PDF](https://fgeerolf.com/pouvoir-achat-2025-slides.pdf)**
@@ -45,10 +45,10 @@ Les scripts écrivent aussi les données dans [`csv/table1.csv`](csv/table1.csv)
 
 ### Chiffres cités dans le texte
 
-[Code R](R/chiffres.R) : cumuls 2021-2023 et 2021-2025, revenus de la propriété et intérêts hors SIFIM, dividendes, variante sans neutraliser les SIFIM, comparaison sur longue période depuis 2000. Chaque chiffre est affiché à côté de la valeur retenue dans le texte.
+[Code R](R/chiffres.R) : dans l'ordre du billet, revenus de la propriété et intérêts hors SIFIM, cumul 2021-2023, prévision 2026, variante sans neutraliser les SIFIM, dividendes de 2013 et 2018, cumuls 2019-2026. Chaque chiffre est affiché à côté de la valeur retenue dans le texte.
 
 [Code R](R/distribution.R) : comptes nationaux distribués 2023 (*Insee Analyses* n° 119, avril 2026), part des revenus financiers dans le revenu disponible par dixième de niveau de vie et pouvoir d'achat par cinquième.
 
 ## Millésime des données
 
-Les chiffres de l'article correspondent aux comptes annuels de l'Insee publiés en mai 2026 (2023 définitif, 2024 semi-définitif, 2025 provisoire) et aux données d'Eurostat de novembre 2026. Les publications ultérieures peuvent modifier légèrement les résultats.
+Les chiffres du billet correspondent aux comptes annuels de l'Insee publiés en mai 2026 (2023 définitif, 2024 semi-définitif, 2025 provisoire) et aux données d'Eurostat de novembre 2026. Les publications ultérieures peuvent modifier légèrement les résultats.

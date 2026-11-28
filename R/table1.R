@@ -1,6 +1,6 @@
 # Tableau 1 : pouvoir d'achat par unité de consommation, avec et sans les revenus de la propriété,
 # évolutions annuelles en %, 2019-2026 (2026 : prévision de l'Insee, septembre 2026).
-# Version publiée sur le blog de l'IFE (25 novembre 2026).
+# Version publiée sur le blog de l'IFE-OFCE (25 novembre 2026).
 
 library(gt)
 

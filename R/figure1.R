@@ -1,7 +1,7 @@
 # Graphique 1 : pouvoir d'achat par unité de consommation, avec et sans les revenus de la propriété,
 # base 100 en 2019 ; 2026 : prévision de l'Insee (septembre 2026).
 # Zone grise : crise inflationniste (2021-2023) ; zone bleue : reflux des dividendes (2024-2025).
-# Version publiée sur le blog de l'IFE (25 novembre 2026).
+# Version publiée sur le blog de l'IFE-OFCE (25 novembre 2026).
 
 library(ggplot2)
 
