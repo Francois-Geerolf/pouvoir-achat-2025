@@ -39,6 +39,10 @@ La mesure « tous revenus » est celle que publie l'Insee, sur l'ensemble du rev
 
 ![Graphique 1](png/figure1.png)
 
+### Données du tableau et du graphique
+
+Les scripts écrivent aussi les données dans [`csv/table1.csv`](csv/table1.csv) (évolutions annuelles en %, deux décimales) et [`csv/figure1.csv`](csv/figure1.csv) (indices base 100 en 2019). La [version en ligne](https://fgeerolf.com/pouvoir-achat-2025.html) lit directement le tableau et le graphique produits par ce dépôt.
+
 ### Chiffres cités dans le texte
 
 [Code R](R/chiffres.R) : cumuls 2021-2023 et 2021-2025, revenus de la propriété et intérêts hors SIFIM, dividendes, variante sans neutraliser les SIFIM, comparaison sur longue période depuis 2000. Chaque chiffre est affiché à côté de la valeur retenue dans le texte.

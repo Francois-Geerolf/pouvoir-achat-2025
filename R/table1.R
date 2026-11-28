@@ -20,6 +20,13 @@ t1 <- series[series$annee >= 2019, c("annee", "officiel", "hors")]
 t1[, -1] <- round(t1[, -1], 1) + 0   # évite un « -0,0 » pour 2023
 print(t1)
 
+# Données du tableau (deux décimales), lues par l'article
+dir.create("csv", showWarnings = FALSE)
+write.csv(data.frame(annee = series$annee[series$annee >= 2019],
+                     tous_revenus = round(series$officiel[series$annee >= 2019], 2),
+                     hors_revenus_propriete = round(series$hors[series$annee >= 2019], 2)),
+          "csv/table1.csv", row.names = FALSE)
+
 # Format du blog : signe explicite, virgule décimale, signe moins typographique, 0,0 sans signe
 format_taux <- function(x) {
   s <- formatC(abs(x), format = "f", digits = 1, decimal.mark = ",")

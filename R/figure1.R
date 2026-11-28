@@ -60,5 +60,10 @@ p <- ggplot(pa, aes(annee, indice, colour = mesure)) +
         axis.title.y = element_text(colour = "#5f5e5a", size = 10),
         plot.caption = element_text(hjust = 0, colour = "#5f5e5a", size = 8))
 
+# Données du graphique (indices base 100 en 2019)
+dir.create("csv", showWarnings = FALSE)
+write.csv(data.frame(annee = pa$annee, mesure = pa$mesure, indice = round(pa$indice, 3)),
+          "csv/figure1.csv", row.names = FALSE)
+
 ggsave("png/figure1.png", plot = p, width = 8, height = 5, bg = "white", dpi = 150)
 ggsave("pdf/figure1.pdf", plot = p, width = 8, height = 5)
